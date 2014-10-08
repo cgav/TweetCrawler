@@ -1,0 +1,29 @@
+{
+  "name": "TweetCrawler",
+  "version": "0.1.0",
+  "description": "Crawls all tweets from a Twitter handle and stores the \"created_at\" value in a Mongo DB.",
+  "main": "main.coffee",
+  "dependencies": {
+    "node-twitter-api": "~1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgav/TweetCrawler.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "node",
+    "mongodb",
+    "twitter"
+  ],
+  "author": "Constantin Gavilete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgav/TweetCrawler/issues"
+  },
+  "homepage": "https://github.com/cgav/TweetCrawler"
+}

@@ -1,0 +1,7 @@
+{
+	"twitterConsumerKey": "",
+	"twitterConsumerSecret": "",
+	"twitterAccessToken": "",
+	"twitterAccessTokenSecret": "",
+	"dbName": "tweetcrawler"
+}

@@ -29,3 +29,4 @@ node_modules
 
 db/
 config.json
+res/twitter_all.csv

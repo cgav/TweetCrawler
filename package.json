@@ -6,7 +6,9 @@
   "dependencies": {
     "node-twitter-api": "~1.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mongojs": "~0.15.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

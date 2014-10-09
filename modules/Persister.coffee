@@ -80,6 +80,25 @@ class Persister
 			callback?(null, startups)
 			return false
 
+	getNextStartup: (callback) =>
+		modifyObject =
+			query:
+				twitter_dates:
+					"$exists": false
+			update:
+				"$set":
+					twitter_dates: []
+
+		@db.startups.findAndModify modifyObject, (err, _startup) =>
+			if err?
+				return callback?(err, null)
+
+			startup =
+				name: _startup.name
+				twitter: _startup.twitter
+
+			return callback?(null, startup)
+
 	close: =>
 		@db.close()
 
